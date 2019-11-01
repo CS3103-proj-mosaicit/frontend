@@ -1,1 +1,1 @@
-### This is the html template I use, can be changed to something else
+[[https://github.com/CS3103-proj-mosaicit/frontend/blob/master/images/about-bg.jpg]]
