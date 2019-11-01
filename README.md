@@ -1,1 +1,1 @@
-[[https://github.com/CS3103-proj-mosaicit/frontend/blob/master/images/about-bg.jpg]]
+![alt text](https://github.com/CS3103-proj-mosaicit/frontend/blob/master/images/about-bg.jpg)
