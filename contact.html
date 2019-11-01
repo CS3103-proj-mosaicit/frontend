@@ -9,7 +9,7 @@
 <meta name="author" content="">
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 
-<title>Neuron Template - Contact</title>
+<title>MosaitIt - Contact</title>
 <!--
 
 Template 2085 Neuron
@@ -46,14 +46,12 @@ http://www.tooplate.com/view/2085-neuron
                     <span class="icon icon-bar"></span>
                     <span class="icon icon-bar"></span>
                </button>
-               <a href="index.html" class="navbar-brand">Neuron</a>
+               <a href="index.html" class="navbar-brand">MosaicIt</a>
           </div>
           <div class="collapse navbar-collapse">
                <ul class="nav navbar-nav navbar-right">
                     <li><a href="index.html">Home</a></li>
-                    <li><a href="about.html">About</a></li>
                     <li><a href="gallery.html">Gallery</a></li>
-                    <li class="active"><a href="contact.html">Contact</a></li>
                </ul>
           </div>
 
@@ -61,16 +59,28 @@ http://www.tooplate.com/view/2085-neuron
 </div>
 
 <!-- Home Section -->
-
+<!-- 
 <section id="home" class="main-contact parallax-section">
      <div class="overlay"></div>
      <div class="container">
           <div class="row">
-
                <div class="col-md-12 col-sm-12">
-                    <h1>Contact Us</h1>
+                    <h1>Upload Picture and Get Your Mosaic!</h1>
                </div>
+          </div>
+     </div>
+</section> -->
 
+<!-- Home Section -->
+
+<section id="home" class="main-contact parallax-section">
+     <div class="overlay"></div>
+     <div id="particles-js"></div>
+     <div class="container">
+          <div class="row">
+               <div class="col-md-12 col-sm-12">
+                    <h1>Upload Picture and Get Your Mosaic!</h1>
+               </div>
           </div>
      </div>
 </section>
@@ -82,25 +92,26 @@ http://www.tooplate.com/view/2085-neuron
           <div class="row">
 
                <div class="col-md-offset-1 col-md-10 col-sm-12">
-                    <h2>Say hello..</h2>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+<!--                     <h2>Say hello..</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p> -->
 
                     <form action="#" method="post">
-                         <div class="col-md-4 col-sm-4">
-                              <input name="name" type="text" class="form-control" id="name" placeholder="Name">
+                         <div class="col-md-8 col-sm-8">
+                              <input name="name" type="text" class="form-control" id="name" placeholder="[Image Path] Upload Your Local Picture to Perform Magic">
                          </div>
                          <div class="col-md-4 col-sm-4">
-                              <input name="email" type="email" class="form-control" id="email" placeholder="Email">
-                      	 </div>
-                         <div class="col-md-4 col-sm-4">
-                              <input name="subject" type="text" class="form-control" id="subject" placeholder="Subject">
-                      	 </div>
+                              <input name="submit" type="submit" class="form-control" id="upload" value="Upload">
+                         </div>
                          <div class="col-md-12 col-sm-12">
-                              <textarea name="message" rows="5" class="form-control" id="message" placeholder="Message"></textarea>
+                              <input name="subject" type="text" class="form-control" id="theme" placeholder="Mosaic Theme">
+                      	 </div>
+                          <div class="col-md-4 col-sm-4">
+                          </div>
+                         <div class="col-md-4 col-sm-4">
+                              <input name="submit" type="submit" class="form-control" id="submit" value="Download Your Mosaic">
                          </div>
-                         <div class="col-md-3 col-sm-6">
-                              <input name="submit" type="submit" class="form-control" id="submit" value="Send">
-                         </div>
+                         <div class="col-md-4 col-sm-4">
+                          </div>
                     </form>
                </div>
 
@@ -115,20 +126,20 @@ http://www.tooplate.com/view/2085-neuron
           <div class="row">
 
                <div class="col-md-5 col-md-offset-1 col-sm-6">
-                    <h3>Neuron Studio</h3>
-                    <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.</p>
+                    <h3>MosaicIt</h3>
+                    <p>CS3103 Group Project - Group 3</p>
                     <div class="footer-copyright">
-                         <p>Copyright &copy; 2017 Your Company - Design: Tooplate</p>
+                         <p>Copyright &copy; 2019 MosaicIt - Design</p>
                     </div>
                </div>
 
                <div class="col-md-4 col-md-offset-1 col-sm-6">
-                    <h3>Talk to us</h3>
-                    <p><i class="fa fa-globe"></i> 512 Delicious Street, San Francisco, CA 10880</p>
-                    <p><i class="fa fa-phone"></i> 010-020-0990</p>
-                    <p><i class="fa fa-save"></i> info@company.com</p>
+                    <h3>Email us</h3>
+                    <p><i class="fa fa-globe"></i> NUS School of Computing, COM1, 13 Computing Drive, 117417</p>
+                    <p><i class="fa fa-phone"></i> 65-12345678</p>
+                    <p><i class="fa fa-save"></i> info@nuscs3103group3.com</p>
                </div>
-
+<!-- 
                <div class="clearfix col-md-12 col-sm-12">
                     <hr>
                </div>
@@ -141,7 +152,7 @@ http://www.tooplate.com/view/2085-neuron
                          <li><a href="#" class="fa fa-dribbble"></a></li>
                          <li><a href="#" class="fa fa-linkedin"></a></li>
                     </ul>
-               </div>
+               </div> -->
                
           </div>
      </div>
